@@ -24,7 +24,7 @@ app.post('/upload', function(req, res) {
 
 	console.log(timestamp + "Image Saved.");
 
-	res.send("http://172.20.10.2:3000/get_image/" + timestamp + ".jpg");	
+	res.send("http://150.95.185.195/get_image/" + timestamp + ".jpg");	
 });
 
 app.listen(PORT);
